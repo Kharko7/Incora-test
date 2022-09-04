@@ -1,9 +1,8 @@
 class Show {
-    constructor(name, genre, releaseDate, duration) {
+    constructor(name, genre, releaseDate) {
         this.name = name;
         this.genre = genre;
         this.releaseDate = releaseDate;
-        this.duration = duration;
     };
 
     getDuration() {

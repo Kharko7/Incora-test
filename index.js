@@ -25,7 +25,6 @@ const start = () => {
     megogoSubscription.watch('Hulk');
     megogoSubscription.watch('Sherlock');
     megogoSubscription.getRecommendationTrending();
-    console.log(sherlock.duration)
   } catch (error) {
     console.log(error);
   };
